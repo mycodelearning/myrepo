@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Host Website in GitHub</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./" class="logo"
+        ><img
+          src="https://codelearning.in/wp-content/uploads/2023/12/codelearningsvg.svg"
+          alt=""
+      /></a>
+
+      <img src="menu.png" id="togglemenu" alt="" />
+
+      <nav class="menu">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="btn">Start Coding Today</button>
+    </header>
+
+    <div class="banner-section">
+      <div class="banner-content">
+        <p id="tagline">Code smarter, not harder</p>
+        <h1 class="typewriter-text">MASTER IN PROGRAMMING</h1>
+        <p>
+          Embark on a Full Stack Development journey in Delhi, mastering HTML,
+          CSS, JavaScript, Node.js, MongoDB, React, and Express. Our course
+          ensures hands-on experience in front-end and back-end technologies,
+          empowering you with the skills for dynamic web solutions.
+        </p>
+        <button class="btn">Lets Start Coding Today</button>
+      </div>
+      <div class="banner-img">
+        <img src="web-development-course.png" alt="" />
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#togglemenu").click(function () {
+          $(".menu").slideToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
